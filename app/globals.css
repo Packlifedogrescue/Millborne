@@ -1,7 +1,6 @@
 :root {
   --bg: #0c0c0d;
   --bg-glow: #161513;
-  --line: #2a2621;
   --text: #ece7dd;
   --text-dim: #9b9284;
   --steel: #b7c1c4;
@@ -36,19 +35,11 @@ body::before {
 
 .frame {
   max-width: 640px; width: 100%;
-  border: 1px solid var(--line);
   padding: 88px 48px;
   position: relative;
   z-index: 1;
-  box-shadow: 0 40px 80px -40px rgba(0, 0, 0, 0.6);
   animation: rise 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
-.frame::before, .frame::after {
-  content: ""; position: absolute; width: 7px; height: 7px;
-  border: 1px solid var(--steel-dim); transform: rotate(45deg);
-}
-.frame::before { top: -4px; left: -4px; }
-.frame::after { bottom: -4px; right: -4px; }
 
 .mark-img {
   height: 68px; width: auto;
