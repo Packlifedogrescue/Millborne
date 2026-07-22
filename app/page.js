@@ -1,11 +1,25 @@
+import Image from "next/image";
+import mbMark from "../public/mb-mark.png";
+import millborneWordmark from "../public/millborne-wordmark.png";
+
 export default function Home() {
   return (
     <>
       <div className="frame">
-        <div className="mark">
-          M<span>·</span>B
-        </div>
-        <h1>MILLBORNE</h1>
+        <Image
+          src={mbMark}
+          alt=""
+          className="mark-img"
+          priority
+        />
+        <h1>
+          <Image
+            src={millborneWordmark}
+            alt="Millborne"
+            className="wordmark-img"
+            priority
+          />
+        </h1>
         <div className="rule"></div>
         <div className="tagline">Forged for Generations</div>
 

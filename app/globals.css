@@ -32,15 +32,20 @@ body {
 .frame::before { top: -4px; left: -4px; }
 .frame::after { bottom: -4px; right: -4px; }
 
-.mark {
-  font-size: 15px; letter-spacing: 0.02em; color: var(--gold);
-  margin-bottom: 28px; font-weight: 600;
+.mark-img {
+  height: 44px; width: auto;
+  margin: 0 auto 28px;
+  filter: invert(1);
+  display: block;
 }
-.mark span { position: relative; top: -3px; font-size: 12px; }
 
-h1 {
-  font-size: 54px; font-weight: 400; letter-spacing: 0.12em;
-  color: var(--text); margin-bottom: 18px;
+h1 { margin-bottom: 18px; }
+
+.wordmark-img {
+  width: 320px; max-width: 100%; height: auto;
+  filter: invert(1);
+  display: block;
+  margin: 0 auto;
 }
 
 .rule { width: 64px; height: 1px; background: var(--gold-dim); margin: 0 auto 18px; }
