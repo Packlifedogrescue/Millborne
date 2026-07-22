@@ -36,8 +36,8 @@ export default function Home() {
 
         <p className="story">
           Millborne began as a single set of irons, designed for one family
-          and forged in carbon steel. Every detail on the page came first —
-          the loft, the lie, the grain of the steel — long before anything
+          and forged in carbon steel. Every detail on the page came first:
+          the loft, the lie, the grain of the steel, long before anything
           else did.
         </p>
       </div>
