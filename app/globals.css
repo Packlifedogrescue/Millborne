@@ -58,6 +58,26 @@ h1 { margin-bottom: 26px; }
   margin: 0 auto;
 }
 
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 52px auto 48px;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -15% -30%;
+  background: radial-gradient(ellipse at 50% 45%, rgba(183, 193, 196, 0.14), transparent 70%);
+  filter: blur(24px);
+  z-index: -1;
+}
+.hero-img {
+  width: 300px; max-width: 78%; height: auto;
+  display: block;
+  filter: drop-shadow(0 24px 32px rgba(0, 0, 0, 0.55));
+}
+
 .rule {
   width: 80px; height: 1px; margin: 0 auto 22px;
   background: linear-gradient(90deg, transparent, var(--steel-dim), transparent);
@@ -95,5 +115,7 @@ h1 { margin-bottom: 26px; }
   .frame { padding: 64px 28px; }
   .wordmark-img { width: 240px; }
   .mark-img { height: 52px; margin-bottom: 12px; }
+  .hero { margin: 40px auto 36px; }
+  .hero-img { width: 220px; }
   .story { font-size: 13px; margin-top: 44px; }
 }
