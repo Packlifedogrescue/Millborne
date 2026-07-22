@@ -41,8 +41,6 @@ export default function Home() {
           else did.
         </p>
       </div>
-
-      <div className="foot">Millborne</div>
     </>
   );
 }
