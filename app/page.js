@@ -1,7 +1,6 @@
 import Image from "next/image";
 import mbMark from "../public/mb-mark.png";
 import millborneWordmark from "../public/millborne-wordmark.png";
-import kmm1Iron from "../public/kmm-1-iron.png";
 
 export default function Home() {
   return (
@@ -21,15 +20,6 @@ export default function Home() {
             priority
           />
         </h1>
-
-        <div className="hero">
-          <Image
-            src={kmm1Iron}
-            alt="Millborne KMM-1 forged iron"
-            className="hero-img"
-            priority
-          />
-        </div>
 
         <div className="rule"></div>
         <div className="tagline">Forged for Generations</div>
