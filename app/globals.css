@@ -5,6 +5,7 @@
   --text-dim: #9b9284;
   --steel: #b7c1c4;
   --steel-dim: #5c6669;
+  --gold-dim: #8f7c39;
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -66,7 +67,7 @@ h1 { margin-bottom: 26px; }
 
 .rule {
   width: 80px; height: 1px; margin: 0 auto 22px;
-  background: linear-gradient(90deg, transparent, var(--steel-dim), transparent);
+  background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
 }
 
 .tagline {
