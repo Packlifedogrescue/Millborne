@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mbMark from "../public/mb-mark.png";
+import mCrest from "../public/m-crest.png";
 import millborneWordmark from "../public/millborne-wordmark.png";
 
 export default function Home() {
@@ -7,9 +7,9 @@ export default function Home() {
     <>
       <div className="frame">
         <Image
-          src={mbMark}
+          src={mCrest}
           alt=""
-          className="mark-img"
+          className="mark-img crest-img"
           priority
         />
         <h1>
@@ -30,6 +30,15 @@ export default function Home() {
           the loft, the lie, the grain of the steel, long before anything
           else did.
         </p>
+
+        <a
+          href="https://tracerbuddy.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="sibling-link"
+        >
+          Tracerbuddy
+        </a>
       </div>
     </>
   );

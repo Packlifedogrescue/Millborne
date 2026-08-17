@@ -49,6 +49,12 @@ body::before {
   display: block;
 }
 
+.crest-img {
+  height: 96px;
+  filter: none;
+  opacity: 1;
+}
+
 h1 { margin-bottom: 26px; }
 
 .wordmark-img {
@@ -74,6 +80,21 @@ h1 { margin-bottom: 26px; }
   font-weight: 300;
 }
 
+.sibling-link {
+  display: inline-block;
+  font-family: var(--sans); font-size: 11px; letter-spacing: 0.22em;
+  color: var(--text-dim); text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 40px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  transition: color 200ms ease, border-color 200ms ease;
+}
+.sibling-link:hover {
+  color: var(--steel);
+  border-bottom-color: var(--steel-dim);
+}
+
 @keyframes rise {
   from { opacity: 0; transform: translateY(14px); }
   to { opacity: 1; transform: translateY(0); }
@@ -83,5 +104,6 @@ h1 { margin-bottom: 26px; }
   .frame { padding: 64px 28px; }
   .wordmark-img { width: 240px; }
   .mark-img { height: 52px; margin-bottom: 12px; }
+  .crest-img { height: 74px; }
   .story { font-size: 13px; margin-top: 44px; }
 }
