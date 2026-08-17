@@ -25,10 +25,11 @@ export default function Home() {
         <div className="tagline">Forged for Generations</div>
 
         <p className="story">
-          Millborne began as a single set of irons, designed for one family
-          and forged in carbon steel. Every detail on the page came first:
-          the loft, the lie, the grain of the steel, long before anything
-          else did.
+          Founded in 2026, Millborne was created around a simple belief: the
+          finest golf equipment should outlast trends. Inspired by the
+          traditions of forged clubmaking and the idea of passing the game
+          from one generation to the next, Millborne builds equipment with
+          purpose, restraint, and permanence.
         </p>
 
         <a
